@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up Page</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+    rel="stylesheet">
+  <style>
+    .signup-form {
+      margin: 50px auto;
+      width: 350px;
+      background-color: palevioletred;
+      padding: 20px;
+      border-radius: 10px;
+      animation: slideIn 0.5s ease forwards;
+    }
+
+    .input-group {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .input-group label {
+      display: block;
+      color: white;
+      margin-bottom: 5px;
+      font-family: "Outfit", sans-serif;
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateY(-100%);
+        opacity: 0;
+      }
+
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    .input-group input {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+    }
+
+    .btn-container {
+      text-align: center;
+
+    }
+
+    .btn-signup {
+      width: 80%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 4px;
+      border-color: black;
+      background-color: palevioletred color;
+      cursor: pointer;
+      font-family: "Outfit", sans-serif;
+    }
+
+    .signup-form h2 {
+      font-family: 'quicksand';
+      color: palevioletred;
+      font-size: 50px;
+      text-align: center;
+    }
+
+    .btn-signup:hover {
+      background-color: rgba(0, 0, 0, .5);
+    }
+
+    h3 {
+      font-family: "Outfit", sans-serif;
+      color: white;
+      font-size: 40px;
+
+
+    }
+  </style>
+
+</head>
+
+<body>
+  </div>
+  <nav class="main-menu">
+    <div>
+      <a class="logo" href="">
+      </a>
+    </div>
+    <div class="settings"></div>
+    <div class="scrollbar" id="style-1">
+
+      <ul>
+
+        <li>
+          <a href="index.html">
+            <i class="fa fa-home fa-lg"></i>
+            <span class="nav-text">Home</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="index.html">
+            <i class="fa fa-user fa-lg"></i>
+            <span class="nav-text">Profile</span>
+          </a>
+        </li>
+
+
+        <li>
+          <a href="contact us.html">
+            <i class="fa fa-envelope-o fa-lg"></i>
+            <span class="nav-text">Contact Us</span>
+          </a>
+        </li>
+
+
+        <li>
+
+          <a href="">
+            <i class="fa fa-question-circle fa-lg"></i>
+            <span class="nav-text">FAQ</span>
+          </a>
+        </li>
+
+      </ul>
+  </nav>
+  <div class="signup-form">
+    <center>
+      <h3>Sign Up</h3>
+    </center>
+    <form>
+      <div class="input-group">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required>
+      </div>
+      <div class="input-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="input-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="btn-container">
+        <button type="submit" class="btn-signup">Sign Up</button>
+      </div>
+    </form>
+  </div>
+
+</body>
+
+</html>

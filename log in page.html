@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    @keyframes slideIn {
+      from {
+        transform: translateY(-100%);
+        opacity: 0;
+      }
+
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    .login-form {
+      margin: 50px auto;
+      width: 350px;
+      background-color: palevioletred;
+      padding: 20px;
+      border-radius: 10px;
+      animation: slideIn 0.5s ease forwards;
+    }
+
+    .input-group {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .input-group label {
+      display: block;
+      color: white;
+      margin-bottom: 5px;
+      font-family: "Outfit", sans-serif;
+    }
+
+    .input-group input {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+    }
+
+
+    .btn-login {
+      width: 80%;
+      padding: 10px;
+      text-align: center;
+      border-radius: 5px;
+      border: none;
+      background-color: white;
+      color: palevioletred;
+      cursor: pointer;
+      font-family: "Outfit", sans-serif;
+      margin-left: 25px;
+    }
+
+    .login-form h2 {
+      font-family: "Outfit", sans-serif;
+      color: palevioletred;
+      font-size: 50px;
+    }
+
+    .btn-login:hover {
+      background-color: peachpuff;
+    }
+
+    h3 {
+      font-family: "Outfit", sans-serif;
+      color: white;
+      font-size: 40px;
+    }
+
+    }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  </div>
+  <nav class="main-menu">
+    <div>
+      <a class="logo" href="">
+      </a>
+    </div>
+    <div class="settings"></div>
+    <div class="scrollbar" id="style-1">
+
+      <ul>
+
+        <li>
+          <a href="index.html">
+            <i class="fa fa-home fa-lg"></i>
+            <span class="nav-text">Home</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="index.html">
+            <i class="fa fa-user fa-lg"></i>
+            <span class="nav-text">Profile</span>
+          </a>
+        </li>
+
+
+        <li>
+          <a href="contact us.html">
+            <i class="fa fa-envelope-o fa-lg"></i>
+            <span class="nav-text">Contact Us</span>
+          </a>
+        </li>
+
+
+        <li>
+
+          <a href="">
+            <i class="fa fa-question-circle fa-lg"></i>
+            <span class="nav-text">FAQ</span>
+          </a>
+        </li>
+
+      </ul>
+  </nav>
+  <div class="login-form">
+    <center>
+      <h3>Login</h3>
+    </center>
+    <form>
+      <div class="input-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="input-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <center <button type="submit" class="btn-login">Login</button></center>
+    </form>
+  </div>
+
+</body>
+
+</html>
